@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Melanie's Blog`,
+    title: `Design Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `UX team`,
+      summary: `TODO`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `TODO`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: ``,
     },
   },
   plugins: [
@@ -18,6 +18,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-theme-blog`,
+      options: {
+        // basePath defaults to `/`
+        basePath: `/blog`,
       },
     },
     {
