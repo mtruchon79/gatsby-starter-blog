@@ -46,7 +46,7 @@ const Bio = () => {
         <p>
           Written by ME!!!!!
           {` `}
-          <a href={`gelato.genetec.com`}>
+          <a href={`google.com`}>
             You should follow us
           </a>
         </p>
